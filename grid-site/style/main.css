@@ -11,7 +11,6 @@ body {
 .container {
     display: grid;
     grid-template-columns: 20% 80%;
-    /* gap: 0px; einai  kai to deafult */
 }
 
 header {
