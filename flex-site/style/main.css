@@ -21,16 +21,13 @@ body {
 
 .container {
     display: flex;
-    flex-direction: row; 
-    /* epeidh ta 8elw to ena dipla sto allo*/
+    flex-direction: row;
 }
 
 header {
     background-color:var(--navy);
     color: var(--wedding);
     flex: 1 20%;
-    /* h 1h sthlh na pianei 20%
-    ths selidas, oson afora to platos */
 }
 
 .header-title {
@@ -42,9 +39,7 @@ main {
     flex: 2 80%;
     height: 100vh;
     overflow: scroll;
-     /*teleio*/
     scroll-behavior: smooth;
-   
 }
 
 nav ul {
@@ -88,15 +83,13 @@ code {
     background-color: lightgray;
     border: 1px solid black;
     display: block;
-    width: 50%; /* einai to 50% tou 80% */
+    width: 50%;
     margin-left: auto;
     margin-right: auto;
 }
 
 pre {
     white-space: pre-wrap;
-    /*gia na mh vgainei o kwdikas 
-    e3w apo to plaisio*/
 }
 
 .bgcolor-beige {
@@ -112,7 +105,6 @@ section {
     top: 7rem;
     left: 16.2rem;
     cursor: pointer;
-    /*emfanizei xeraki*/
     padding: 10px;
 }
 
